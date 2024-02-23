@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Library App</title>
-    <script src="script.js" defer ></script>
-</head>
-<body>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <button id="addBtn">Add book</button>
 
-    <button id="addBook" >Add book</button>
-
-    <button id="printBook"> Print BOOK</button>
+    <form action="post" id="form">
+      <div><input type="text" id="title" placeholder="title" /></div>
+      <div><input type="text" id="author" placeholder="author" /></div>
+      <div><input type="number" id="pages" placeholder="pages" /></div>
+      <div><input type="text" id="isRead" placeholder="isRead" /></div>
+      <div><button type="submit" id="submit">submit</button></div>
+    </form>
 
     <div class="div"></div>
-    
-</body>
+  </body>
 </html>
