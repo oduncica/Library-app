@@ -1,0 +1,25 @@
+body{
+    margin : 0 auto;
+    padding: 0;
+    background-color:#C1A5A9;
+}
+
+#form{
+    display: none;
+}
+
+
+
+.container {
+    width: 25%;
+    height: 250px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
