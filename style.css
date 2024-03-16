@@ -1,7 +1,6 @@
 body{
     margin : 0 auto;
     padding: 0;
-    background-color:#C1A5A9;
 }
 
 #form{
@@ -24,7 +23,10 @@ input{
 #addBtn{
     margin-left: 20px;
     border-radius: 5px;
-    background-color:#212E53
+    background-color: #C08497;
+    border: #C08497;
+    width: 90px;
+    height: 23px;
 }
 .div {
     display: flex;
@@ -34,48 +36,48 @@ input{
 
 
 
-.div:nth-child(1) {
+.container:nth-child(1) {
     background-color: #f4a261;
   }
   
-  .div:nth-child(2) {
+  .container:nth-child(2) {
     background-color: #e9c46a;
   }
   
-  .div:nth-child(3) {
+  .container:nth-child(3) {
     background-color: #eed997;
   }
   
-  .div:nth-child(4) {
+  .container:nth-child(4) {
     background-color: #f7af9d;
   }
-  .div:nth-child(5) {
+  .container:nth-child(5) {
     background-color: #c08497;
   }
   
-  .div:nth-child(6) {
-    background-color: #f7e3af;
-  }
-  
-  .div:nth-child(7) {
+  .container:nth-child(6) {
     background-color: #f4a261;
   }
   
-  .div:nth-child(8) {
+  .container:nth-child(7) {
+    background-color: #f4a261;
+  }
+  
+  .container:nth-child(8) {
     background-color: #e9c46a;
   }
   
-  .div:nth-child(9) {
+  .container:nth-child(9) {
     background-color: #eed997;
   }
-  .div:nth-child(10) {
+  .container:nth-child(10) {
     background-color: #f7af9d;
   }
-  .div:nth-child(11) {
+  .container:nth-child(11) {
     background-color: #c08497;
   }
   
-  .div:nth-child(12) {
+  .container:nth-child(12) {
     background-color: #f7e3af;
   }
   
